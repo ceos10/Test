@@ -1,0 +1,30 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+
+/// <summary>
+/// Descripción breve de clstipo_empleado
+/// </summary>
+public class clstipo_empleado
+{
+    //variables
+    string idtipo, descripcion;
+
+	public clstipo_empleado(string idtipo, string descripcion)
+	{
+        this.idtipo = idtipo;
+        this.descripcion = descripcion;
+
+	}
+
+    public string Idtipo {
+        set { idtipo = value; }
+        get { return idtipo; }
+    }
+    public string Descripcion
+    {
+        set { descripcion = value; }
+        get { return descripcion; }
+    }
+}
